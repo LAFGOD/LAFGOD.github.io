@@ -1,0 +1,182 @@
+
+* {
+	margin:0;
+	padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/fondo1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+ 
+header {
+	margin-top:10px;
+    width: 100%;
+    overflow: hidden;
+    height: 150px;
+    position: relative;
+}
+ 
+nav {
+    top:-20px;
+    position: absolute;
+    left:0;
+    right:0;
+	margin:20px auto;
+	max-width:1200px;
+	width:90%;
+}
+ 
+nav ul {
+	list-style:none;
+}
+ 
+nav ul {
+	display:table;
+	width:100%;
+	background:#000;
+	position:relative;
+}
+ 
+nav > ul li {
+	display:table-cell;
+    
+}
+ 
+nav > ul > li > ul {
+	display:block;
+	position:absolute;
+	background:#000;
+	left:0;
+	right:0;
+	overflow:hidden;
+	height:0%;
+	-webkit-transition: all .3s ease;
+}
+ 
+nav > ul li a {
+    font-size: 25px;
+	color:#fff;
+	display:block;
+	line-height:20px;
+	padding:20px;
+	position: relative;
+	text-align:center;
+	text-decoration:none;
+	-webkit-transition: all .3s ease;
+
+}
+ 
+nav > ul > li > ul > li a:hover {
+	background:#5da5a2;
+}
+ 
+nav > ul > li > a span {
+	background:#174459;
+	display:block;
+	height:100%;
+	width:100%;
+	left:0;
+	position:absolute;
+	top:-55px;
+	-webkit-transition: all .3s ease;
+}
+ 
+nav > ul > li > a span .icon {
+	display:block;
+	line-height:60px;
+}
+ 
+nav > ul > li > a:hover > span {
+	top:0;
+}
+ 
+/*Colores*/
+nav ul li a .primero {
+	background:#01C0FF;
+    
+}
+ 
+nav ul li a .segundo {
+	background:#309CBF;
+    
+}
+ 
+nav ul li a .tercero {
+	background:#007DA6;
+    
+}
+ 
+nav ul li a .cuarto {
+	background:#40CFFF;
+}
+nav ul li a i {
+    margin-top: 17px;
+}
+   
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    color: white;
+    
+}
+.footer1{
+    padding: 20px 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 100px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.container .text{
+    background-color: black;
+    width: 50%;
+    margin-left: 12%;
+    padding: 15px;
+}
+
+.container h1{
+    color: #fff;
+    border-bottom: 2px solid;
+    
+}
+
+.container .text ul{
+    letter-spacing: 1px;
+    list-style: none;
+}
+.container .text ul li {
+    padding: 5px;
+    color: #fff;
+    font-size: 20px;
+}
+.yo{
+    transition: 1s all;
+    position: fixed;
+    top: 161px;
+    z-index: 5;
+    right: 120px;
+    width: 250px;
+    border-radius: 50%;
+}
+.yo:hover{
+    border-radius: 20px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,129 @@
+*{
+    box-sizing:border-box;
+   
+}
+body
+{
+    margin:0; 
+    background:url("imagenes/fondo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color:white;
+}
+
+
+header{
+    background-color: none;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    
+}
+
+nav{
+    padding: 0;
+    margin: 0;
+    height: 40px;
+}
+
+ul{
+    list-style: none;
+    width: 100%;
+}
+
+ul li{
+    display: inline;
+    padding: 5px;
+    transition: 500ms ease;
+    list-style: none;
+}
+
+nav ul li a{
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+    transition: 500ms ease;
+    font-size: 25px;
+}
+
+nav ul li:hover{
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 5px 5px;
+    transition: 500ms ease;
+    
+}
+
+nav ul li a:hover{
+    padding: 5px;
+    color: rgba(0, 178, 255, 1);
+    transition: 800ms ease;
+}
+
+.container{
+    padding: 30px;
+}
+article{
+    width:400px;
+    
+}
+aside {
+    display:inline-block;
+    position:fixed; 
+    width:30%;
+    margin-top: 30px;
+}
+.section{
+    width:60%;
+    display: inline-block;
+    
+}
+aside img{
+    border:2px solid white;
+}
+footer{
+    background-color: orangered;
+    padding:25px;
+    color:black;
+    text-align: center;
+}
+
+/* Show more */
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-wrap .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+

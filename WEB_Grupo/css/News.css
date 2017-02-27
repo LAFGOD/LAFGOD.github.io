@@ -1,0 +1,56 @@
+.NewsText {
+	font-family: 'Crete Round', serif;
+	font-weight: bold;
+	color: #444;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+img{
+    width: 600px;
+    height: 300px;
+}
+
+blockquote {
+  font: 14px/20px "italic Times", serif;
+  padding-left: 70px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-right: 10px;
+  background-color: #dadada;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin: 5px;
+  background-image: url(images/openquote4.gif);
+  background-position: left;
+  background-repeat: no-repeat;
+  text-indent: 23px;
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+.Bar{
+    margin-bottom: 40px; 
+    padding-bottom:10px; 
+    border-bottom:1px solid #CCCCCC;
+    list-style: none;
+}
+
+.News {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+p{
+    margin-top: 30px;
+}
