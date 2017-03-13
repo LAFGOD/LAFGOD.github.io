@@ -1,0 +1,99 @@
+{"Proyectos":[
+    {
+        "Título":"CV :", 
+        "Fecha de realización":"9/12/16", 
+        "Descripción":"Contiene mi formación académica, mis capacidades...",             
+        "Link":"https://lafgod.github.io/cv_lafoz/index.html", 
+        "Miembros Grupo":"Trabajo individual", 
+        "Asignaturas relacionadas":"Lenguaje de Marcas",
+        "Disponible":"Sí", 
+        "Destacado":"No", 
+        "Responsive":"No",
+        "Visualización recomendada":"1900 x 1200 px", 
+        "Se puede añadir información que se considere relevante":"Sí",
+        "Img": "imagenes/cv.PNG",
+        "Pequeño": "Sobre mí."
+    },
+    
+    {
+        "Título":"Glosario :", 
+        "Fecha de realización":"30/10/16", 
+        "Descripción":"Primer proyecto realizado, al que incorporé la función de 'Ver Más' para mejorar el proyecto.", 
+        "Link":"https://lafgod.github.io/Glosario/index.html", 
+        "Miembros Grupo":"Trabajo individual", 
+        "Asignaturas relacionadas":"Lenguaje de Marcas", 
+        "Disponible":"Sí", 
+        "Destacado":"No",
+        "Responsive":"No", 
+        "Visualización recomendada":"1900 x 1200 px", 
+        "Se puede añadir información que se considere relevante":"No",
+        "Img": "imagenes/glosario.PNG",
+        "Pequeño": "Primer proyecto."
+        
+    },
+    
+
+    {
+        "Título":"Web Grupal :", 
+        "Fecha de realización":"27/11/16", 
+        "Descripción":"Web realizada en grupo, basada en un estudio de diseño y desarrollo de videojuegos.", 
+        "Link":"https://lafgod.github.io/WEB_Grupo/html/index.html", 
+        "Miembros Grupo":"Alberto Jacinto, Juan María Jusué, Eduardo Lafoz", 
+        "Asignaturas relacionadas":"Lenguaje de Marcas", 
+        "Disponible":"Sí", 
+        "Destacado":"No", 
+        "Responsive":"No", 
+        "Visualización recomendada":"1900 x 1200 px", 
+        "Se puede añadir información que se considere relevante":"No",
+        "Img": "imagenes/grupo.PNG",
+        "Pequeño": "Web Grupal."
+    },
+     {
+        "Título":"CV :", 
+        "Fecha de realización":"9/12/16", 
+        "Descripción":"Contiene mi formación académica, mis capacidades...",             
+        "Link":"https://lafgod.github.io/cv_lafoz/index.html", 
+        "Miembros Grupo":"Trabajo individual", 
+        "Asignaturas relacionadas":"Lenguaje de Marcas",
+        "Disponible":"Sí", 
+        "Destacado":"No", 
+        "Responsive":"No",
+        "Visualización recomendada":"1900 x 1200 px", 
+        "Se puede añadir información que se considere relevante":"Sí",
+        "Img": "imagenes/cv.PNG",
+        "Pequeño": "Sobre mí."
+    },
+    
+    {
+        "Título":"Glosario :", 
+        "Fecha de realización":"30/10/16", 
+        "Descripción":"Primer proyecto realizado, al que incorporé la función de 'Ver Más' para mejorar el proyecto.", 
+        "Link":"https://lafgod.github.io/Glosario/index.html", 
+        "Miembros Grupo":"Trabajo individual", 
+        "Asignaturas relacionadas":"Lenguaje de Marcas", 
+        "Disponible":"Sí", 
+        "Destacado":"No",
+        "Responsive":"No", 
+        "Visualización recomendada":"1900 x 1200 px", 
+        "Se puede añadir información que se considere relevante":"No",
+        "Img": "imagenes/glosario.PNG",
+        "Pequeño": "Primer proyecto."
+    },
+    
+
+    {
+        "Título":"Web Grupal :", 
+        "Fecha de realización":"27/11/16", 
+        "Descripción":"Web realizada en grupo, basada en un estudio de diseño y desarrollo de videojuegos.", 
+        "Link":"https://lafgod.github.io/WEB_Grupo/html/index.html", 
+        "Miembros Grupo":"Alberto Jacinto, Juan María Jusué, Eduardo Lafoz", 
+        "Asignaturas relacionadas":"Lenguaje de Marcas", 
+        "Disponible":"Sí", 
+        "Destacado":"No", 
+        "Responsive":"No", 
+        "Visualización recomendada":"1900 x 1200 px", 
+        "Se puede añadir información que se considere relevante":"No",
+        "Img": "imagenes/grupo.PNG",
+        "Pequeño": "Web Grupal."
+    }
+]}
